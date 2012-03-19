@@ -1,0 +1,7 @@
+A file subscription system loosely based on the SIENA publish-subscribe model.  file-subscriber consists of a client and server and makes use of Java RMI for its remote procedure calls for communication between client and server and file transfer.  
+
+Clients can upload and subscribe to files.  Upon subscription to a file, any changes to this file will result in server pushing the newest version to all subscribers.  
+
+Executable jars are available with detailed instructions for usage.  
+
+Refactoring and enhancements coming soon.  
